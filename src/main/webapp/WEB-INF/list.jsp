@@ -73,9 +73,9 @@
                                         <td>${user.username}</td>
                                         <td>${user.email}</td>
                                         <td>
-                                            <a href="/users/remove?id=${model.id}">Usuń</a>
-                                            <a href="/users/edit?id=${model.id}">Edytuj</a>
-                                            <a href="/users/details?id=${model.id}">Pokaż</a>
+                                            <a href="/users/remove?id=${user.id}">Usuń</a>
+                                            <a href="/users/edit?id=${user.id}">Edytuj</a>
+                                            <a href="/users/details?id=${user.id}">Pokaż</a>
                                             <c:if test="${addedRow}"><div class="badge bg-primary text-white rounded-pill">Nowy</div></c:if>
                                         </td>
                                     </tr>
