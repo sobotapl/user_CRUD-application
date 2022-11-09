@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="user_CRUD-application:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>user_CRUD-application</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="user_CRUD-application-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="user_CRUD-application:war exploded" />
+    </root>
+  </artifact>
+</component>
